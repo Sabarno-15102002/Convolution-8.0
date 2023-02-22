@@ -403,7 +403,7 @@ h6 {
   height: 100vh;
   background: #37517e;
    background-image: url('../img/portfolio/convo\ bg.png');
-   background-image: url('https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?b=1&k=20&m=537331500&s=612x612&w=0&h=Ni1xaMtCOiGvH4NKnl7Y4uTMqXEjd8cYwBDDOjk4TKE=');
+   /* background-image: url('https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?b=1&k=20&m=537331500&s=612x612&w=0&h=Ni1xaMtCOiGvH4NKnl7Y4uTMqXEjd8cYwBDDOjk4TKE='); */
   background-repeat: no-repeat;
   background-size: cover; 
   opacity: 10;
