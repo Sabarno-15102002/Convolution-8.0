@@ -329,3 +329,34 @@
 		scrolling = false;
 	};
 })();
+
+$(".clients-carousel").owlCarousel({
+  autoplay: true,
+  dots: true,
+  loop: true,
+  responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
+  }
+});
+
+$(document).ready(function(){
+  $('.customer-logos').slick({
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1500,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [{
+          breakpoint: 768,
+          settings: {
+              slidesToShow: 4
+          }
+      }, {
+          breakpoint: 520,
+          settings: {
+              slidesToShow: 3
+          }
+      }]
+  });
+});

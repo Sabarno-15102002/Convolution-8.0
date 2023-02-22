@@ -403,6 +403,7 @@ h6 {
   height: 100vh;
   background: #37517e;
    background-image: url('../img/portfolio/convo\ bg.png');
+   background-image: url('https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?b=1&k=20&m=537331500&s=612x612&w=0&h=Ni1xaMtCOiGvH4NKnl7Y4uTMqXEjd8cYwBDDOjk4TKE=');
   background-repeat: no-repeat;
   background-size: cover; 
   opacity: 10;
@@ -879,6 +880,11 @@ section {
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   background: #fff;
+  background-image: url('https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png'); 
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 250px;
 }
 
 .services .icon-box .icon {
@@ -889,6 +895,7 @@ section {
   color: #47b2e4;
   font-size: 36px;
   transition: 0.3s;
+  
 }
 
 .services .icon-box h4 {
@@ -5248,3 +5255,4 @@ mark {
     transform: translateX(0);
   }
 }
+
