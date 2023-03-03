@@ -9,3 +9,7 @@ Requirements <br><br>
 6)map loc <br>
 7)color code approval <br>
 8) Intro Video
+
+ABOL-TABOL REQUIREMENTS
+1) Landing page bg
+2)
