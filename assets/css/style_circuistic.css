@@ -401,9 +401,8 @@ body {
   #hero {
     width: 100%;
     height: 100vh;
-    background: #37517e;
-     background-image: url('../img/portfolio/convo\ bg.png');
-     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHzBeB6FTflriRv5NKf1DIOd_vO-cwDI_9Sw&usqp=CAU');
+    background: #172337;
+    background-image: url('/assets/img/output-onlinepngtools.png');
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: right;
@@ -411,7 +410,7 @@ body {
     
   }
   #hero background-image{
-    opacity: -1;
+    opacity: -5;
   }
   #hero .container {
     padding-top: 72px;
