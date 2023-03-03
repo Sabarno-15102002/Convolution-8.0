@@ -68,6 +68,11 @@ h6 {
   height: 100%;
 }
 
+.algo-logo {
+  width: 10%;
+  height: 10%;
+}
+
 /* timeline */
 .timeline-p {
   font-size: 25px;
@@ -440,7 +445,7 @@ h6 {
   height: 100vh;
   background: #37517e;
   background-image: url('../img/portfolio/convo\ bg.png');
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHzBeB6FTflriRv5NKf1DIOd_vO-cwDI_9Sw&usqp=CAU');
+  background-image: url(../img/algo/algo-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
