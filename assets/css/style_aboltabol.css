@@ -441,10 +441,10 @@ body {
     height: 100vh;
     background: #37517e;
     background-image: url('../img/portfolio/convo\ bg.png');
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnBXmh4IImqCZtDRS402EZauywIG2H1g0l5w&usqp=CAU');
+    background-image: url('/assets/img/Aboltabol/abolcover.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     opacity: 10;
   
   }
@@ -459,7 +459,7 @@ body {
   
   #hero h1 {
     margin: 0 0 10px 0;
-    font-size: 122px;
+    font-size: 82px;
     font-weight: 700;
     line-height: 115px;
     color: #fff;
@@ -539,13 +539,17 @@ body {
   }
   
   @media (max-width: 768px) {
+    #hero{
+      background-image: url('/assets/img/Aboltabol/abolmobile.jpeg');
+      background-position: center;
+    }
     #hero h1 {
-      font-size: 28px;
+      font-size: 0px;
       line-height: 36px;
     }
   
     #hero h2 {
-      font-size: 18px;
+      font-size: 0px;
       line-height: 24px;
       margin-bottom: 30px;
     }
