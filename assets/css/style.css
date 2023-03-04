@@ -405,7 +405,9 @@ h6 {
   background: #37517e;
    background-image: url('../img/portfolio/convo\ bg.png');
    background-image: url('https://i.pinimg.com/736x/5a/c1/29/5ac1296b709f4427d4c7785a322d78a2--paste-copy.jpg');
+   background-image: url('https://media3.giphy.com/media/ESfdA1EX02VW/giphy.gif');
    /* background-image: url('https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?b=1&k=20&m=537331500&s=612x612&w=0&h=Ni1xaMtCOiGvH4NKnl7Y4uTMqXEjd8cYwBDDOjk4TKE='); */
+  
   background-repeat: no-repeat;
   background-size: cover; 
   opacity: 10;
