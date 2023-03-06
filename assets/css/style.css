@@ -410,6 +410,9 @@ h6 {
   background-image: url('../img/portfolio/convo\ bg.png');
   background-image: url('https://i.pinimg.com/736x/5a/c1/29/5ac1296b709f4427d4c7785a322d78a2--paste-copy.jpg');
   background-image: url('https://media3.giphy.com/media/ESfdA1EX02VW/giphy.gif');
+  background-image: url('https://images.unsplash.com/photo-1606778303039-9fc1488b1d8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXxJdHJqbUFWU1JvVXx8ZW58MHx8fHw%3D&w=1000&q=80');
+  background-image: url('https://images.unsplash.com/photo-1591644302233-574b796e9d8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80');
+  
   /* background-image: url('https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?b=1&k=20&m=537331500&s=612x612&w=0&h=Ni1xaMtCOiGvH4NKnl7Y4uTMqXEjd8cYwBDDOjk4TKE='); */
 
   background-repeat: no-repeat;
@@ -2907,6 +2910,10 @@ body {
   font-family: var(--font-primary, sans-serif);
   color: hsl(240, 4%, 20%);
   color: var(--color-contrast-high, #313135);
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210115/pngtree-blue-gradient-web-ui-background-image_518658.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 h1,
