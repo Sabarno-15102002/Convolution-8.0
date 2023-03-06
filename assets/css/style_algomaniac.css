@@ -525,6 +525,7 @@ h6 {
   #hero {
     height: 100vh;
     text-align: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxSljlB-kWvAuPNLnVFjvSqGqKbPleIbNPHf3H4ln4ch6wGWDVV20TxtlhHeR6YpLVOtY&usqp=CAU');
   }
 
   #hero .animated {
