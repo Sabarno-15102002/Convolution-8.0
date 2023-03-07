@@ -470,6 +470,22 @@ h6 {
   font-family: 'Courier New', Courier, monospace;
 }
 
+@media (max-width: 1400px) {
+  #hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .algo-img {
+    width: 80%;
+    height: 100%;
+  }
+}
+
 #hero h2 {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
