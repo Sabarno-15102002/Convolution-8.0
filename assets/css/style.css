@@ -345,6 +345,7 @@ h6 {
   background-color: #ffffffc7;
   overflow-y: auto;
   transition: 0.3s;
+  background-image: url("https://images.theengineeringprojects.com/image/main/2022/10/technologies-that-engineering-is-innovating.jpg");
 }
 
 .navbar-mobile a,
@@ -413,7 +414,7 @@ h6 {
   background-image: url('https://images.unsplash.com/photo-1606778303039-9fc1488b1d8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXxJdHJqbUFWU1JvVXx8ZW58MHx8fHw%3D&w=1000&q=80');
   background-image: url('https://images.unsplash.com/photo-1591644302233-574b796e9d8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80');
   background-image: url('../img/indexlogo.avif');
-  
+
   /* background-image: url('https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?b=1&k=20&m=537331500&s=612x612&w=0&h=Ni1xaMtCOiGvH4NKnl7Y4uTMqXEjd8cYwBDDOjk4TKE='); */
 
   background-repeat: no-repeat;
@@ -509,10 +510,11 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  #hero{
+  #hero {
     background-position: right;
     background-image: url("https://images.theengineeringprojects.com/image/main/2022/10/technologies-that-engineering-is-innovating.jpg");
   }
+
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -2918,7 +2920,7 @@ body {
   background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210115/pngtree-blue-gradient-web-ui-background-image_518658.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  
+
 }
 
 h1,
