@@ -126,7 +126,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  background-color: rgb(118, 177, 196);
+  background-color: rgb(15, 38, 45);
   color: rgba(40, 58, 90, 0.9);
 }
 
@@ -407,6 +407,7 @@ h6 {
   background-image: url('https://media-s3-us-east-1.ceros.com/centaur-media/images/2021/04/22/d1fe2d1dc3fc674f0067c1a8346d8c65/times-square-slower.gif');
   /* background-image: url('https://media2.giphy.com/media/mTdVKHLEFTGWQ/giphy.gif'); */
   /* background-: url('https://i0.wp.com/circuitstate.com/wp-content/uploads/2021/07/CIRCUITSTATE-Electronics-Services-Featured-Image-1-3.png?fit=1700%2C450&ssl=1'); */
+  background-image: url;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
