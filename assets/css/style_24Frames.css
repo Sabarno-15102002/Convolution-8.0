@@ -404,7 +404,10 @@ h6 {
     width: 100%;
     height: 100vh;
     background: #172337;
-    background-image: url('https://i.pinimg.com/originals/22/86/5d/22865d4b8b7e517dce1b60a2988c8482.gif');
+    background-image: url('/assets/img/24frameland.jpeg');
+    background-image: url('https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/banner/640358ba42da7_24-frames.png?d=1920x557');
+    background-repeat: no-repeat;
+    background-size: cover;
     /* background-image: url('https://media2.giphy.com/media/mTdVKHLEFTGWQ/giphy.gif'); */
     /* background-: url('https://i0.wp.com/circuitstate.com/wp-content/uploads/2021/07/CIRCUITSTATE-Electronics-Services-Featured-Image-1-3.png?fit=1700%2C450&ssl=1'); */
     background-repeat: no-repeat;
