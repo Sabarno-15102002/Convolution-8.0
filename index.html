@@ -16,6 +16,10 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Signika:wght@500&family=Smokum&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,300&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,300&family=Roboto+Slab:wght@500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,300&family=Roboto+Slab:wght@500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,300&family=Roboto+Slab:wght@500&family=Tilt+Warp&display=swap">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -37,7 +41,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body style="font-family: 'Signika', sans-serif;">
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
@@ -72,13 +76,14 @@
             </ul>
           </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#portfolio">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
-
+  
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <!-- <img src="./assets/img/portfolio/convo bg.jpeg" style="background-repeat: no-repeat; background-size: cover"  alt=""> -->
@@ -96,12 +101,8 @@
           <h2>The Eighth Edition of Annual Technical Meet</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
-            <a target="_blank" href="https://drive.google.com/uc?export=view&id=1cVms3j838118m-c_U8oQ2CPlf0FQUYWV"
-              class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-            <!-- <video class="glightbox btn-watch-video">
-              <source src="assets/img/convo_teaser.mp4" type="video/mp4">
-              <iclass="bi bi-play-circle"></i> <span> Watch Video </span>
-            </video> -->
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i
+                class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200" style="opacity: 0.5;">
@@ -155,7 +156,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>About Us</h2>
+          <h2>About Convolution 8.0</h2>
         </div>
 
         <div class="row content">
@@ -252,58 +253,251 @@
 
     <!-- timeline section begins-->
 
+
+
+    <!-- timeline section ends -->
+    <!-- ======= Cta Section ======= -->
+    <!-- <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Call To Action</h3>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Call To Action</a>
+          </div>
+        </div>
+
+      </div>
+    </section> -->
+    <!-- End Cta Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Events</h2>
+          <p>A plethora of events covering all your skills. So gear up for the showdown!</p>
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">Coding</li>
+          <li data-filter=".filter-card">Tech</li>
+          <li data-filter=".filter-web">Fun</li>
+        </ul>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <a href="algomainiac.html">
+            <div class="portfolio-img"><img src="assets/img/algo/algoooo.jpg" class="img-fluid" alt=""></div>
+          </a>
+            <div class="portfolio-info">
+              <h4>Algomaniac</h4>
+             
+              <!-- <a href="assets/img/algo/algoooo.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
+              <!-- <a href="./algomainiac.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="AbolTabol.html">
+            <div class="portfolio-img"><img src="assets/img/aboltabolcover.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Abol Tabol</h4>
+            
+             
+              <!-- <a href="./AbolTabol.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+            </div>
+          </a>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div> -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <a href="circuistic.html">
+            <div class="portfolio-img"><img src="assets/img/circuisticlanding.jpeg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Circuistic</h4>
+             
+             
+            
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <a href="sparkhack.html">
+            <div class="portfolio-img"><img src="assets/img/sparkhack.png" class="img-fluid" alt=""></div>
+          </a>
+            <div class="portfolio-info">
+              <h4>SparkHack</h4>
+              
+             
+       
+            </div>
+          </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="Inquizitive.html">
+            <div class="portfolio-img">
+              <img
+                src="./assets/img/inquisitiveland.jpeg" alt="">
+              </div>
+            <div class="portfolio-info">
+              <h4>Inquizzitive</h4>
+            
+            
+             
+            </div>
+          </a>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div> -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <a href="decisia.html">
+            <div class="portfolio-img"><img
+                src="./assets/img/decisialand.jpeg"
+                width="430px" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Decisia</h4>
+            
+           
+            
+            </div>
+          </a>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="24frames.html">
+            <div class="portfolio-img"><img
+                src="./assets/img/24frameland.jpeg" style="background-size: cover;"
+                class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>24 Frames</h4>
+           
+            
+             
+            </div>
+          </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Footfall Section ======= -->
+
+    <!-- End footfall Section -->
+
     <section class="cd-timeline js-cd-timeline">
       <div class="section-title">
         <h2>Timeline</h2>
 
       </div>
       <div class="container max-width-lg cd-timeline__container">
+
+        <div class="cd-timeline__block">
+          <div class="cd-timeline__img cd-timeline__img--location">
+            <img src="assets/img/cd-icon-location.svg" alt="Movie">
+          </div> <!-- cd-timeline__img -->
+
+          <div class="cd-timeline__content text-component">
+            <h2>SparkHack: Round 1</h2>
+            <p class="color-contrast-medium">This round will be an online idea presentation round where teams have to submit their ideas on any single track in front of esteemed judges. Top teams will be shortlisted to the next on-campus round.</p>
+
+            <div class="flex justify-between items-center">
+              <span class="cd-timeline__date">Mar 15- Mar 17</span>
+              <a href="#0" class="btn btn--subtle">Online</a>
+            </div>
+          </div> <!-- cd-timeline__content -->
+        </div> <!-- cd-timeline__block -->
+
         <div class="cd-timeline__block">
           <div class="cd-timeline__img cd-timeline__img--movie">
             <img src="assets/img/cd-icon-movie.svg" alt="Movie">
           </div> <!-- cd-timeline__img -->
 
           <div class="cd-timeline__content text-component">
-            <h2>Algomaniac Round-1</h2>
-            <p class="color-contrast-medium">Brush up your problem solving skills as the timer zeroes into Algomaniac
-              7.0 presented by Convolution 2k23! Race against the best of the minds and showcase your problem solving
-              skills to secure exciting cash prizes and awesome goodies worth ₹ 20,000. Happy coding in advance!</p>
+            <h2>Abol Tabol: Round-1</h2>
+            <p class="color-contrast-medium">Submission of Presentation (preferably in PDF format) through unstop portal. This is an elimination round.</p>
 
             <div class="flex justify-between items-center">
               <span class="cd-timeline__date">Mar 16</span>
-              <a href="#0" class="btn btn--subtle">7:30 pm - 9:30 pm</a>
+              <a href="#0" class="btn btn--subtle">Online <br> (7:30 pm - 9:30 pm)</a>
             </div>
           </div> <!-- cd-timeline__content -->
         </div> <!-- cd-timeline__block -->
+
+        <div class="cd-timeline__block">
+          <div class="cd-timeline__img cd-timeline__img--movie">
+            <img src="assets/img/cd-icon-movie.svg" alt="Movie">
+          </div> <!-- cd-timeline__img -->
+
+          <div class="cd-timeline__content text-component">
+            <h2>Algomaniac: Round-1</h2>
+            <p class="color-contrast-medium">This will be a preliminary coding contest round on Hackerrank! This will be an online elimination round.</p>
+
+            <div class="flex justify-between items-center">
+              <span class="cd-timeline__date">Mar 16</span>
+              <a href="#0" class="btn btn--subtle">Online <br> (7:30 pm - 9:30 pm)</a>
+            </div>
+          </div> <!-- cd-timeline__content -->
+        </div> <!-- cd-timeline__block -->
+
+
         <div class="cd-timeline__block">
           <div class="cd-timeline__img cd-timeline__img--picture">
             <img src="assets/img/cd-icon-picture.svg" alt="Picture">
           </div> <!-- cd-timeline__img -->
 
           <div class="cd-timeline__content text-component">
-            <h2>24 Frames</h2>
-            <p class="color-contrast-medium">Ready to flex you photography skills? Convolution 8.0 presents <strong>24
-              frames</strong>
-            for you all to showcase your talent in capturing the greatest moments and win exciting prizes and goodies!
+            <h2>24 Frames: Photo Submission Round</h2>
+            <p class="color-contrast-medium">The photos can be submitted in our booth by uploading them to our device manually(i.e. Offline) or emailing them along with the Metadata of the photos along with the caption. <br>  Participants can submit their photos till 5 pm on this day.</strong>
+            
             </p>
             <!-- <p class="color-contrast-medium">Sharpen your circuit designing skills for a couple of electrifying days!</p> -->
 
             <div class="flex justify-between items-center">
-              <span class="cd-timeline__date">Mar 23 - 25</span>
+              <span class="cd-timeline__date">Mar 23- Mar 25</span>
               <a href="#0" class="btn btn--subtle">11:00 am - 5:30 pm</a>
             </div>
           </div> <!-- cd-timeline__content -->
         </div> <!-- cd-timeline__block -->
 
-
+        
         <div class="cd-timeline__block">
           <div class="cd-timeline__img cd-timeline__img--movie">
             <img src="assets/img/cd-icon-movie.svg" alt="Movie">
           </div> <!-- cd-timeline__img -->
 
           <div class="cd-timeline__content text-component">
-            <h2>Circuistic Round-1</h2>
-            <p class="color-contrast-medium">Sharpen your circuit designing skills for a couple of electrifying days!
+            <h2>Circuistics: Round 1</h2>
+            <p class="color-contrast-medium">Pen and Paper mode(Test duration 1.5 hrs)
             </p>
 
             <div class="flex justify-between items-center">
@@ -319,15 +513,12 @@
           </div> <!-- cd-timeline__img -->
 
           <div class="cd-timeline__content text-component">
-            <h2>Spark-Hack</h2>
-            <p class="color-contrast-medium">Introducing SparckHack, Eastern India's biggest hackathon! With a focus on
-              technology, creativity, and teamwork, SparckHack offers a platform for participants to showcase their
-              skills in a fast-paced and challenging environment.So come join us and hack your way to the most exciting
-              rewards!</p>
+            <h2>SparkHack: Finale</h2>
+            <p class="color-contrast-medium">This will be an on-campus product pitching round where teams have to showcase their prototype on Jadavpur University campus in front of esteemed judges.</p>
 
             <div class="flex justify-between items-center">
               <span class="cd-timeline__date">Mar 25</span>
-              <a href="#0" class="btn btn--subtle">2:30 pm -5:30 pm</a>
+              <a href="#0" class="btn btn--subtle">2 pm - 6 pm</a>
             </div>
           </div> <!-- cd-timeline__content -->
         </div> <!-- cd-timeline__block -->
@@ -338,13 +529,12 @@
           </div> <!-- cd-timeline__img -->
 
           <div class="cd-timeline__content text-component">
-            <h2>Abol-Tabol</h2>
-            <p class="color-contrast-medium">Abol-Tabol is a creative thinking competition which tests your logic and
-              imagination power to the fullest! The topics revolve around Sci-Fi plots!</p>
+            <h2>Abol Tabol: Finale</h2>
+            <p class="color-contrast-medium">Offline Presentation in front of esteemed judges</p>
 
             <div class="flex justify-between items-center">
               <span class="cd-timeline__date">Mar 25</span>
-              <a href="#0" class="btn btn--subtle">2:30 pm - 5:30 pm</a>
+              <a href="#0" class="btn btn--subtle">2:30 pm - 4:30 pm</a>
             </div>
           </div> <!-- cd-timeline__content -->
         </div> <!-- cd-timeline__block -->
@@ -356,14 +546,11 @@
 
           <div class="cd-timeline__content text-component">
             <h2>Decisia-Round 1 </h2>
-            <p class="color-contrast-medium">Welcome to Decisia, the ultimate treasure hunt event at our tech fest!
-              Decisia is not just any ordinary treasure hunt - it is a journey of discovery and adventure, designed to
-              challenge your mind and test your skills in solving complex puzzles, riddles and clues.So hasten and
-              brainstorm your way to exciting prizes.</p>
+            <p class="color-contrast-medium">Screening Round</p>
 
             <div class="flex justify-between items-center">
               <span class="cd-timeline__date">Mar 25</span>
-              <a href="#0" class="btn btn--subtle">2:30 pm - 5:30 pm</a>
+              <a href="#0" class="btn btn--subtle">2 pm - 5:30 pm</a>
             </div>
           </div> <!-- cd-timeline__content -->
         </div> <!-- cd-timeline__block -->
@@ -375,7 +562,7 @@
 
           <div class="cd-timeline__content text-component">
             <h2>Circuistic Round-2</h2>
-            <p class="color-contrast-medium">The finale round for Circuistics for the qualifiers of Round-1.</p>
+            <p class="color-contrast-medium">Teams will have to design optimized hardware solution based on the given problem statement</p>
 
             <div class="flex justify-between items-center">
               <span class="cd-timeline__date">Mar 26</span>
@@ -406,7 +593,7 @@
 
           <div class="cd-timeline__content text-component">
             <h2>Decisia - Final round</h2>
-            <p class="color-contrast-medium">The finale round for Decisia for the qualifiers of Round-1.</p>
+            <p class="color-contrast-medium">On-Campus Finale.</p>
 
             <div class="flex justify-between items-center">
               <span class="cd-timeline__date">Mar 26</span>
@@ -428,339 +615,30 @@
 
             <div class="flex justify-between items-center">
               <span class="cd-timeline__date">Mar 26</span>
-              <a href="#0" class="btn btn--subtle">2:30pm-4:00pm</a>
+              <a href="#0" class="btn btn--subtle">1:30pm-4:00pm</a>
+            </div>
+          </div> <!-- cd-timeline__content -->
+        </div> <!-- cd-timeline__block -->
+
+        <div class="cd-timeline__block">
+          <div class="cd-timeline__img cd-timeline__img--location">
+            <img src="assets/img/cd-icon-location.svg" alt="Movie">
+          </div> <!-- cd-timeline__img -->
+
+          <div class="cd-timeline__content text-component">
+            <h2>Prize Distribution</h2>
+            <p class="color-contrast-medium">Your rewards await you after you tireless 2 days of contests and fun!</p>
+
+            <div class="flex justify-between items-center">
+              <span class="cd-timeline__date">Mar 26</span>
+              <a href="#0" class="btn btn--subtle">1:30pm-4:00pm</a>
             </div>
           </div> <!-- cd-timeline__content -->
         </div> <!-- cd-timeline__block -->
 
 
-
-
       </div>
     </section>
-
-    <!-- timeline section ends -->
-    <!-- ======= Cta Section ======= -->
-    <!-- <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
-          </div>
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Cta Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Events</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">Coding</li>
-          <li data-filter=".filter-card">Tech</li>
-          <li data-filter=".filter-web">Fun</li>
-        </ul>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <a href="algomainiac.html">
-            <div class="portfolio-img"><img src="assets/img/algo/algoooo.jpg" class="img-fluid" alt=""></div>
-          </a>
-            <div class="portfolio-info">
-              <h4>Algomaniac</h4>
-              <p>App</p>
-              <a href="assets/img/algo/algoooo.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <!-- <a href="./algomainiac.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <a href="AbolTabol.html">
-            <div class="portfolio-img"><img src="assets/img/Aboltabol/abolcover.jpeg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Abol Tabol</h4>
-            
-              <a href="assets/img/Aboltabol/abolcover.jpeg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <!-- <a href="./AbolTabol.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </a>
-          </div>
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <a href="circuistic.html">
-            <div class="portfolio-img"><img src="assets/img/circuistic/circuistic logo.png" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Circuistic</h4>
-             
-              <a target="_blank" href="assets/img/sparkhack.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
-                title="Card 2"><i class="bx bx-plus"></i></a>
-            
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <a href="sparkhack.html">
-            <div class="portfolio-img"><img src="assets/img/sparkhack.png" class="img-fluid" alt=""></div>
-          </a>
-            <div class="portfolio-info">
-              <h4>Sparkhack</h4>
-              
-              <a href="assets/img/sparkhack.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
-                title="Card 2"><i class="bx bx-plus"></i></a>
-       
-            </div>
-          </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <a href="Inquizitive.html">
-            <div class="portfolio-img"><img
-                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_238,h_400/https://www.scientia.global/wp-content/uploads/Floris_Roelofsen/page_1-610x1024.jpg"
-                class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Inquisitive</h4>
-              <p>Web</p>
-              <a href="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_238,h_400/https://www.scientia.global/wp-content/uploads/Floris_Roelofsen/page_1-610x1024.jpg"
-                data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i
-                  class="bx bx-plus"></i></a>
-             
-            </div>
-          </a>
-          </div>
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <a href="decisia.html">
-            <div class="portfolio-img"><img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3F0ogm1u02-IGRlGJ5MKPet_duvzc8qEbUDfd19b4yNUb1cDVrVbrXqjbj-k0_vdRJSk&usqp=CAU"
-                width="430px" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Decisia</h4>
-              <p>Card</p>
-              <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjdpA6MjtbStidSHNBcByabPNMoGWzHqYWi0T95qja9IBBmK6IJFUpJi4ldbtRxwPKhr4&usqp=CAU"
-                data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i
-                  class="bx bx-plus"></i></a>
-            
-            </div>
-          </a>
-          </div>
-
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <a href="24frames.html">
-            <div class="portfolio-img"><img
-                src="https://m.media-amazon.com/images/M/MV5BNWYxNzI5N2UtNWFmNC00Nzg2LWI3N2EtNGU5OTc1M2M5ZWVlXkEyXkFqcGdeQXVyNjkxOTM4ODY@._V1_.jpg"
-                class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>24 Frames</h4>
-              <p>Web</p>
-              <a href="https://m.media-amazon.com/images/M/MV5BNWYxNzI5N2UtNWFmNC00Nzg2LWI3N2EtNGU5OTc1M2M5ZWVlXkEyXkFqcGdeQXVyNjkxOTM4ODY@._V1_.jpg"
-                data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i
-                  class="bx bx-plus"></i></a>
-             
-            </div>
-          </a>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Footfall Section ======= -->
-
-    <!-- End footfall Section -->
-
-      </div>
-    </section> -->
-    <!-- End Cta Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Events</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">Coding</li>
-          <li data-filter=".filter-card">Tech</li>
-          <li data-filter=".filter-web">Fun</li>
-        </ul>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <a href="algomainiac.html">
-            <div class="portfolio-img"><img src="assets/img/algo/algoooo.jpg" class="img-fluid" alt=""></div>
-          </a>
-            <div class="portfolio-info">
-              <h4>Algomaniac</h4>
-              <p>App</p>
-              <a href="assets/img/algo/algoooo.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <!-- <a href="./algomainiac.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <a href="AbolTabol.html">
-            <div class="portfolio-img"><img src="assets/img/Aboltabol/abolcover.jpeg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Abol Tabol</h4>
-            
-              <a href="assets/img/Aboltabol/abolcover.jpeg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <!-- <a href="./AbolTabol.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </a>
-          </div>
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <a href="circuistic.html">
-            <div class="portfolio-img"><img src="assets/img/circuistic/circuistic logo.png" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Circuistic</h4>
-             
-              <a target="_blank" href="assets/img/sparkhack.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
-                title="Card 2"><i class="bx bx-plus"></i></a>
-            
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <a href="sparkhack.html">
-            <div class="portfolio-img"><img src="assets/img/sparkhack.png" class="img-fluid" alt=""></div>
-          </a>
-            <div class="portfolio-info">
-              <h4>Sparkhack</h4>
-              
-              <a href="assets/img/sparkhack.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
-                title="Card 2"><i class="bx bx-plus"></i></a>
-       
-            </div>
-          </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <a href="Inquizitive.html">
-            <div class="portfolio-img"><img
-                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_238,h_400/https://www.scientia.global/wp-content/uploads/Floris_Roelofsen/page_1-610x1024.jpg"
-                class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Inquisitive</h4>
-              <p>Web</p>
-              <a href="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_238,h_400/https://www.scientia.global/wp-content/uploads/Floris_Roelofsen/page_1-610x1024.jpg"
-                data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i
-                  class="bx bx-plus"></i></a>
-             
-            </div>
-          </a>
-          </div>
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <a href="decisia.html">
-            <div class="portfolio-img"><img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3F0ogm1u02-IGRlGJ5MKPet_duvzc8qEbUDfd19b4yNUb1cDVrVbrXqjbj-k0_vdRJSk&usqp=CAU"
-                width="430px" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Decisia</h4>
-              <p>Card</p>
-              <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjdpA6MjtbStidSHNBcByabPNMoGWzHqYWi0T95qja9IBBmK6IJFUpJi4ldbtRxwPKhr4&usqp=CAU"
-                data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i
-                  class="bx bx-plus"></i></a>
-            
-            </div>
-          </a>
-          </div>
-
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <a href="24frames.html">
-            <div class="portfolio-img"><img
-                src="https://m.media-amazon.com/images/M/MV5BNWYxNzI5N2UtNWFmNC00Nzg2LWI3N2EtNGU5OTc1M2M5ZWVlXkEyXkFqcGdeQXVyNjkxOTM4ODY@._V1_.jpg"
-                class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>24 Frames</h4>
-              <p>Web</p>
-              <a href="https://m.media-amazon.com/images/M/MV5BNWYxNzI5N2UtNWFmNC00Nzg2LWI3N2EtNGU5OTc1M2M5ZWVlXkEyXkFqcGdeQXVyNjkxOTM4ODY@._V1_.jpg"
-                data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i
-                  class="bx bx-plus"></i></a>
-             
-            </div>
-          </a>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Footfall Section ======= -->
-
-    <!-- End footfall Section -->
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
@@ -768,9 +646,7 @@
 
         <div class="section-title">
           <h2>Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+          <p>Meet the representatives of JU EE Students' Forum making Convolution 8.0 possible! We are  ready to address all your queries!</p>
         </div>
 
         <div class="row">
@@ -802,8 +678,8 @@
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href="https://instagram.com/_its.wicked_?igshid=ZDdkNTZiNTM=" target="_blank" class="instagram"><i class="ri-instagram-fill"></i></a>
-                  <a href="http://linkedin.com/in/ritwick-halder-b10639207" target="_blank" class="linkedin"> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -815,7 +691,7 @@
               <div class="member-info">
                 <h4>Bishwayan Banerjee</h4>
                 <span>Treasurer</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+               
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -832,7 +708,7 @@
               <div class="member-info">
                 <h4>Sainik Khaddar</h4>
                 <span>Tech Lead</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+               
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -848,12 +724,12 @@
               <div class="member-info">
                 <h4>Anubhab Chakrabarty</h4>
                 <span>Logistics Lead</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+              
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href="https://www.facebook.com/anubhab.chakraborty.1614?mibextid=ZbWKwL" target="_blank" class="facebook"><i class="ri-facebook-fill"></i></a>
-                  <a href="https://instagram.com/__.anubhab.__?igshid=ZDdkNTZiNTM=" target="_blank" class="instagram"><i class="ri-instagram-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/anubhab-chakraborty" target="_blank" class="linkedin"> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -863,8 +739,8 @@
               <div class="pic"><img src="assets/img/team/aman.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Aman Haque</h4>
-                <span>Sponsor Lead</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <span>Sponsorship Lead</span>
+               
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -880,12 +756,12 @@
               <div class="member-info">
                 <h4>Anish Ray</h4>
                 <span>Public Reach</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+               
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href="https://www.facebook.com/anish.ray.982292?mibextid=ZbWKwL" target="_blank" class="facebook"><i class="ri-facebook-fill"></i></a>
-                  <a href="https://instagram.com/aneatshh?igshid=ZDdkNTZiNTM=" target="_blank" class="instagram"><i class="ri-instagram-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/anish-ray-1a7543204" target="_blank" class="linkedin"> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -896,9 +772,9 @@
               <div class="member-info">
                 <h4>Sourodipto Sarkar</h4>
                 <span>Design Lead</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+             
                 <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a target="" href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
                   <a href=""><i class="ri-instagram-fill"></i></a>
                   <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
@@ -1047,52 +923,34 @@
             <div class="content">
               <h3>Frequently asked <strong>Questions</strong></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                
               </p>
             </div>
 
             <div class="accordion-list">
               <ul>
                 <li>
-                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non
-                    consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Why should you participate in Convolution 8.0 ? <i class="bx bx-chevron-down icon-show"></i><i
                       class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                     <p>
-                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
-                      gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                      If you are one who's keen to showcase your skills, grab some amazing prizes, build your networks, and most importantly witness some of your lifetime memories, hola gladiator you have opened the right page! Also by participating in Convolution, you can learn about new research, technologies, and advancements in your field.
                     </p>
                   </div>
                 </li>
 
                 <li>
                   <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span>
-                    Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i
+                    Will it be an online or offline event ? <i class="bx bx-chevron-down icon-show"></i><i
                       class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                     <p>
-                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
-                      id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est
-                      pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt
-                      dui.
+                      It will be a hybrid event. Every event has it's own timeline. Please refer to respective events of your choice!
                     </p>
                   </div>
                 </li>
 
-                <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span>
-                    Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i
-                      class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
-                    <p>
-                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
-                      elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque
-                      eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis
-                      sed odio morbi quis
-                    </p>
-                  </div>
-                </li>
+             
 
               </ul>
             </div>
@@ -1112,38 +970,72 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+          <p>Contact for any kind of queries.</p>
         </div>
 
-        <div class="row">
 
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>KC ROY Hall, Electrical Department, Jadavpur University, Kolkata</p>
-              </div>
 
-       
+        <div class="d-flex align-items-stretch">
+          <div class="info">
+            <div class="address">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Location:</h4>
+              <p>Electrical Department, Jadavpur University, Kolkata</p>
+            </div>
 
+            <div class="email">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p>convolution2023@gmail.com</p>
+            </div>
 
             <div class="phone">
               <i class="bi bi-phone"></i>
               <h4>Call:</h4>
-              <p>+91 8420241803 / +91 9903163710</p>
+              <p>+91 8017388918 / +91 7866827719</p>
             </div>
 
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14744.833134351007!2d88.36285572909694!3d22.49636726355133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0271233b03a041%3A0x3ab416d1f7084129!2sElectrical%20Engineering%20Department%2C%20Jadavpur%20University!5e0!3m2!1sen!2sin!4v1676910175761!5m2!1sen!2sin"
+              frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
           </div>
 
- 
+
+
+          <!-- <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div> -->
 
         </div>
 
       </div>
     </section><!-- End Contact Section -->
+<!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -1164,11 +1056,49 @@
       </div>
     </div> -->
 
+    <div class="footer-top" >
+      <div class="container">
+        <div class="row">
+
+           <div class="col-lg-9 col-md-6 footer-contact">
+            <h3>Convolution 8.0</h3>
+            <p>Department of Electrical Engineering <br>
+              Jadavpur University <br>
+              188, Raja Subodh Chandra Mallick Rd, Jadavpur, Kolkata, West Bengal 700032<br>
+              India<br><br>
+              <strong>Phone:</strong>+91 8017388918/+91 7866827719<br>
+              <strong>Email:</strong>convolution2023@gmail.com<br>
+            </p>
+
+          </div> 
+          
+           <div class="col-lg-3 col-md-6 footer-links">
+            
+            <h4>Our Social Networks</h4>
+            <p></p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>  
+
+          
+          
+          <div class="col-lg-3 col-md-6 footer-links">
+           
+          </div>
+
+        </div>
+      </div>
+    </div>
 
 
 
-
-  </footer><!-- End Footer -->
+  </footer>
+ <!-- End Footer -->
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
@@ -1187,69 +1117,69 @@
   <script src="assets/js/main.js"></script>
 
   <script>
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
+     // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyBuoUaHLOBTX6SiAOsPQKLEhsgLYHYWC8c",
-      authDomain: "convolution8-42051.firebaseapp.com",
-      databaseURL: "https://convolution8-42051-default-rtdb.firebaseio.com",
-      projectId: "convolution8-42051",
-      storageBucket: "convolution8-42051.appspot.com",
-      messagingSenderId: "341593196843",
-      appId: "1:341593196843:web:ffba01e2540ff0fbaedd6e",
-      measurementId: "G-P89DH7HJG0"
-    };
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBuoUaHLOBTX6SiAOsPQKLEhsgLYHYWC8c",
+    authDomain: "convolution8-42051.firebaseapp.com",
+    databaseURL: "https://convolution8-42051-default-rtdb.firebaseio.com",
+    projectId: "convolution8-42051",
+    storageBucket: "convolution8-42051.appspot.com",
+    messagingSenderId: "341593196843",
+    appId: "1:341593196843:web:ffba01e2540ff0fbaedd6e",
+    measurementId: "G-P89DH7HJG0"
+  };
 
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-    firebase.initializeApp(firebaseConfig);
-
-    var messagesRef = firebase.database()
-      .ref('Collected Data');
-
-    document.getElementById('contactForm')
-      .addEventListener('submit', submitForm);
-
-    function submitForm(e) {
-      e.preventDefault();
-
-      // Get values
-      var name = getInputVal('name');
-      var email = getInputVal('email');
-      var college = getInputVal('college');
-      var year = getInputVal('year');
-      var subject = getInputVal('subject');
-      var message = getInputVal('message');
-
-      saveMessage(name, email, college, year, subject, message);
-      document.getElementById('contactForm').reset();
-    }
-
-    // Function to get form values
-    function getInputVal(id) {
-      return document.getElementById(id).value;
-    }
-
-    // Save message to firebase
-    function saveMessage(name, email, college, year, subject, message) {
-      var newMessageRef = messagesRef.push();
-      newMessageRef.set({
-        name: name,
-        email: email,
-        college: college,
-        year: year,
-        subject: subject,
-        message: message,
-      });
-    }
-  </script>
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  firebase.initializeApp(firebaseConfig);
+ 
+        var messagesRef = firebase.database()
+            .ref('Collected Data');
+         
+        document.getElementById('contactForm')
+            .addEventListener('submit', submitForm);
+ 
+        function submitForm(e) {
+            e.preventDefault();
+ 
+            // Get values
+            var name = getInputVal('name');
+            var email = getInputVal('email');
+            var college=getInputVal('college');
+            var year=getInputVal('year');
+            var subject=getInputVal('subject');
+            var message=getInputVal('message');
+ 
+            saveMessage(name, email,college,year,subject,message);
+            document.getElementById('contactForm').reset();
+        }
+ 
+        // Function to get form values
+        function getInputVal(id) {
+            return document.getElementById(id).value;
+        }
+ 
+        // Save message to firebase
+        function saveMessage(name, email,college,year,subject,message) {
+            var newMessageRef = messagesRef.push();
+            newMessageRef.set({
+                name: name,
+                email: email,
+                college:college,
+                year:year,
+                subject:subject,
+                message:message,
+            });
+        }
+  </script>    
 
 </body>
 

@@ -587,6 +587,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #37517e;
+  font-family: 'Signika', sans-serif;;
 }
 
 .section-title h2::before {
@@ -5088,8 +5089,9 @@ u,
 }
 
 .color-contrast-medium {
-  color: hsl(240, 1%, 48%);
-  color: var(--color-contrast-medium, #79797c);
+  color: hsl(0, 0%, 0%);
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
 }
 
 .color-contrast-high {
@@ -5528,12 +5530,16 @@ mark {
       calc(var(--cd-color-2-l) * 1.05));
   font-family: "Droid Serif", serif;
   font-family: var(--font-primary);
+  background-image: url('https://media.istockphoto.com/id/1138286481/photo/light-teal-defocused-blurred-motion-abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=QT2Bne_LKwFzcYObQqQCvTPWZYA31Ul08_7bvhMwu74=');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cd-timeline h2 {
   font-family: "Open Sans", sans-serif;
   font-family: var(--font-secondary);
   font-weight: 700;
+  font-family: 'Signika', sans-serif;
 }
 
 .cd-timeline__container {
@@ -5695,11 +5701,12 @@ mark {
 }
 
 .cd-timeline__date {
-  color: hsla(207, 10%, 55%, 0.7);
-  color: hsla(var(--cd-color-3-h),
-      var(--cd-color-3-s),
-      var(--cd-color-3-l),
-      0.7);
+  color: hsla(0, 0%, 0%, 0.7);
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Tilt Warp', cursive;
+font-weight: bolder;
+
 }
 
 @media (min-width: 64rem) {
