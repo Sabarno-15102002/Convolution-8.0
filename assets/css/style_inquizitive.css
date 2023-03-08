@@ -163,6 +163,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  background-color: #0c3c53;
 }
 
 #header.header-scrolled,
@@ -441,7 +442,7 @@ h6 {
   height: 100vh;
   background: #37517e;
   background-image: url('../img/portfolio/convo\ bg.png');
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPaczDjhoXTgHjxJw1Th88Bl2vYQtzyQxRGA&usqp=CAU');
+  background-image: url('/assets/img/inquizzitive/bg3.png');
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: center; */
