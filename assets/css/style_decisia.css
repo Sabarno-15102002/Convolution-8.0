@@ -407,7 +407,7 @@ h6 {
   background-image: url('https://media-s3-us-east-1.ceros.com/centaur-media/images/2021/04/22/d1fe2d1dc3fc674f0067c1a8346d8c65/times-square-slower.gif');
   /* background-image: url('https://media2.giphy.com/media/mTdVKHLEFTGWQ/giphy.gif'); */
   /* background-: url('https://i0.wp.com/circuitstate.com/wp-content/uploads/2021/07/CIRCUITSTATE-Electronics-Services-Featured-Image-1-3.png?fit=1700%2C450&ssl=1'); */
-  background-image: url;
+  background-image: url("../img/decisia/decisia bg image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -425,14 +425,16 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 100px;
+  font-weight: 1000;
   line-height: 56px;
-  color: #fff;
+  color: #00d9ffdc;
+  -webkit-text-stroke: 0.01px rgb(0, 0, 0);
+  font-family: 'Federant', cursive;
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(251, 255, 0, 0.747);
   margin-bottom: 50px;
   font-size: 24px;
 }
